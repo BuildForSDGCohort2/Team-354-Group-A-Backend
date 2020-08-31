@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'users'
 ]
 
 MIDDLEWARE = [
@@ -66,6 +68,7 @@ TEMPLATES = [
         },
     },
 ]
+AUTH_USER_MODEL = 'users.useraccount'
 
 WSGI_APPLICATION = 'tourism.wsgi.application'
 
