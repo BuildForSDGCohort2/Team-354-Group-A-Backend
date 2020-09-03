@@ -25,7 +25,7 @@ class userSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError({"password":"passwords should match"})
         user.set_password(password)
         user.save()
-        return 
+        return user
         
 class userpropertiesserializer(serializers.ModelSerializer):
     class Meta:
