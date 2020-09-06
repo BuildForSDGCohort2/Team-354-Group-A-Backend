@@ -1,1 +1,1 @@
-web: gunicorn tourism.wsgi --log-file -
+web: gunicorn Team-354-Group-A-Backend-develop.wsgi --log-file -
