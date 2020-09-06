@@ -1,0 +1,1 @@
+web: gunicorn Team-354-Group-A-Backend-develop.wsgi --log-file -
